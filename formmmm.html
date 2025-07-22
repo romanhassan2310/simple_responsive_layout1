@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Introduction</title>
+    <style>
+       <!--  .navigation{
+            /*justify-content: center;
+            text-decoration: none;*/
+            text-align: center;
+            font-size: 2em;
+            background-color: beige;
+           
+        }-->
+        nav a{
+            text-decoration: none;
+            color: rgb(1, 75, 84);
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px;
+            background-color: antiquewhite;
+            font-size: 2em;
+            
+        }
+        /*.na{
+            display: flex;
+            justify-content: space-between;
+        }*/
+        .login-form-container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 90vh;
+           /* border: 2px solid gray;*/
+           background-color: aquamarine;
+           font-size: 2em;
+        }
+        .login-form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+           /* border: 2px solid skyblue;*/
+            width: 50%;
+        }
+        .login-form input{
+            margin-top: 15px;
+            width: 50%;
+            height: 20px;
+            
+        }
+    </style>
+</head>
+<body>
+    <nav>
+       <div class="na">
+         <a href="">Home</a>
+        <a class="r" href="">Profile</a>
+        <a href="">Blog</a>
+        <a href="">About</a>
+       </div>
+        <a href="">Login</a>   
+     </nav>
+
+    <section class="login-form-container">
+         <form class="login-form">
+        <h3>Please Login</h3>
+        <input type="email" name="" id="" placeholder="Your Email" required>
+        <input type="password" name="" id="" placeholder="Your Password" required>
+        <input type="submit" value="Login">
+     </form>
+    </section>
+</body>
+</html>
